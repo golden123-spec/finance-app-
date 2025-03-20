@@ -1,0 +1,50 @@
+Python follows a standard set of rules for operator precedence, meaning that some operations are performed before others unless you use parentheses to override the default order. Here's a concise list from highest to lowest precedence:
+
+Parentheses and Grouping:
+() — Expressions inside parentheses are evaluated first.
+
+Slicing, Indexing, and Function Calls:
+e.g., a[i], a(), a.attr
+
+Exponentiation:
+**
+
+Unary Operators:
++x, -x, ~x
+
+Multiplication, Division, Floor Division, and Modulus:
+*, /, //, %
+
+Addition and Subtraction:
++, -
+
+Bitwise Shifts:
+<<, >>
+
+Bitwise AND:
+&
+
+Bitwise XOR:
+^
+
+Bitwise OR:
+|
+
+Comparisons:
+<, <=, >, >=, ==, !=, is, is not, in, not in
+(Comparisons all have the same precedence and can be chained.)
+
+Boolean NOT:
+not
+
+Boolean AND:
+and
+
+Boolean OR:
+or
+
+Conditional Expression (Ternary Operator):
+if - else
+
+Lambda Expression:
+lambda
